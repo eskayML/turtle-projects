@@ -2,7 +2,7 @@
 A repository for amazing programs coded using the turtle library in python 
 
 ## Contribution Guide
-<hr>
+
 * Fork this repository
-* Add a python file with the .py extension, Make sure that it isn't a repeated project, i.e it already exists in this repository
+* Add a python file with the <code>.py</code> extension, Make sure that it isn't a repeated program , i.e a similar one already in this repository
 * Create a PR
