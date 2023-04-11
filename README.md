@@ -1,6 +1,7 @@
 # turtle-projects
 A repository for amazing programs coded using the turtle library in python 
 
+> Beginners are encouraged to contribute
 ## Contribution Docs/Guide
 
 * Fork this repository
