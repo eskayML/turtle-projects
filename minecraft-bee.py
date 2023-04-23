@@ -72,24 +72,24 @@ def stripes(thick):
 t.right(120)
 t.forward(4*side)
 
-def switch(color):          # create colour swap function
-    t.color(color)       
-    t.forward(side)
-
 stripes(1)
-t.forward(side)
-switch('#FFD75E')           # this is to stop the colors from overlapping
+t.penup()
+t.forward(2*side)
 
+t.pendown()
 stripes(1)
-t.forward(side)
-switch('#FFD75E')
+t.penup()
+t.forward(2*side)
 
+t.pendown()
 stripes(2)
+t.penup()
 
 # Repositioning turtle
 t.left(180)
-switch('#FFD75E')
-switch('#7A3D13')
+t.penup()
+t.forward(2*side)
+t.pendown()
 
 # Legs
 def legs(length):
@@ -109,10 +109,10 @@ t.forward(side*2)
 legs(2)
 t.forward(side*2)
 legs(1)
-t.forward(side)
 
 #Repositioning
-switch('#FFD75E')
+t.penup()
+t.forward(side)
 t.right(120)
 t.forward(side)
 t.right(60)
@@ -120,6 +120,7 @@ t.right(60)
 # Left side eye
 # Black Section
 t.color('black')
+t.pendown()
 t.begin_fill()
 t.forward(side)
 t.left(60)
@@ -149,13 +150,14 @@ t.end_fill()
 
 #Repositioning
 t.forward(side)
-t.color('#FFEE5F')
+t.penup()
 t.left(60)
 t.forward(side)
 
 # Left side antenna
 t.right(120)
 t.color('black')
+t.pendown()
 t.begin_fill()
 t.forward(side)
 t.right(60)
