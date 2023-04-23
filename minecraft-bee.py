@@ -72,14 +72,13 @@ def stripes(thick):
 t.right(120)
 t.forward(4*side)
 
-def switch(color):
-    t.color(color)       # create colour swap function
+def switch(color):          # create colour swap function
+    t.color(color)       
     t.forward(side)
 
 stripes(1)
 t.forward(side)
 switch('#FFD75E')           # this is to stop the colors from overlapping
-
 
 stripes(1)
 t.forward(side)
@@ -109,8 +108,6 @@ legs(2)
 t.forward(side*2)
 legs(2)
 t.forward(side*2)
-#switch('#FFD75E')               # Is this necessary once I do the full outline??. If yes, change side*2 to side^
-#t.pencolor('#7A3D13')
 legs(1)
 t.forward(side)
 
@@ -221,7 +218,6 @@ for i in range(2):
 t.end_fill()
 
 # Outline
-
 t.right(120)
 t.color('black')
 t.forward(side)
