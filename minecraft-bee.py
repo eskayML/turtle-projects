@@ -112,7 +112,7 @@ legs(1)
 
 #Repositioning
 t.penup()
-t.forward(side)
+t.forward(2*side)
 t.right(120)
 t.forward(side)
 t.right(60)
