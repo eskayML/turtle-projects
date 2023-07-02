@@ -1,5 +1,3 @@
-#turtle , yeah 😍😍🐢🐢
-
 from turtle import *
 
 bgcolor('#9fa')
@@ -26,7 +24,7 @@ shapesize(2,2)
 fd(0)
 shapesize(1,1)
 
-#begin fill remember Sam 😉😉
+#begin fill 
 begin_fill()
 left(50)
 forward(150)
@@ -46,7 +44,8 @@ left(90)
 forward(80)
 right(90)
 down()
-#remain while ended, so some()
+
+
 bgcolor('orange')
 pencolor('white')
 width(4)
@@ -56,11 +55,11 @@ forward(30)
 up()
 forward(25)
 down()
-
 circle(20)
 up()
 forward(50)
 down()
+
 #for v
 left(60)
 forward(30)
@@ -77,6 +76,8 @@ forward(60)
 
 down()
 bgcolor('#222')
+
+
 #for e
 circle(13,-270)
 left(90)
