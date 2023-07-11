@@ -3,7 +3,9 @@ from turtle import *
 bgcolor('#9fa')
 color('red')
 shape('turtle')
-title('First turtle program 🐢🐢')
+title('Love Drawing using Turtle')
+
+#Turtle shrink animation
 shapesize(10,10)
 fd(0)
 shapesize(9,9)
@@ -24,7 +26,7 @@ shapesize(2,2)
 fd(0)
 shapesize(1,1)
 
-#begin fill 
+#Draw Love shape 
 begin_fill()
 left(50)
 forward(150)
@@ -35,8 +37,7 @@ forward(150)
 forward(41)
 end_fill()
 
-#CODE FOR DISPLAYING THE TEXT
-
+#Write Love text
 up()
 left(140)
 forward (180)
@@ -60,7 +61,7 @@ up()
 forward(50)
 down()
 
-#for v
+
 left(60)
 forward(30)
 left(120)
@@ -78,14 +79,12 @@ down()
 bgcolor('#222')
 
 
-#for e
 circle(13,-270)
 left(90)
 forward(26)
 up()
 right(90)
 forward(200)
-#ending statement
 
 bgcolor('pink')
-done()
+done() # exit program
