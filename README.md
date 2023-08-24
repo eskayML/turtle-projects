@@ -33,7 +33,7 @@ If you're new to Turtle or need some inspiration, here are a few steps to get st
 
 ## Share Your Experience
 
-If you've created something amazing with Turtle or if you have any questions or suggestions, we'd love to hear from you! Join the conversation by [opening an issue](https://github.com/example/repository/issues) or participating in the discussions.
+If you've created something amazing with Turtle or if you have any questions or suggestions, we'd love to hear from you! Join the conversation by [opening an issue](https://github.com/eskayML/turtle-projects/issues) or participating in the discussions.
 
 Let's dive into the exciting world of Turtle programming and unleash our creativity together!
 
