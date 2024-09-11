@@ -1,6 +1,6 @@
 import turtle as pen
 
-#This turtle exaple graphic displays the git logo and does so completly in sequential order
+#This turtle example graphic displays the git logo and does so completely in sequential order
 #one could modify this to use functions allowing for code reuse to create the various shapes  
 
 
