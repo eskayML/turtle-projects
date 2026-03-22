@@ -39,3 +39,13 @@ If you've created something amazing with Turtle or if you have any questions or 
 Let's dive into the exciting world of Turtle programming and unleash our creativity together!
 
 Happy coding  :heart: !
+
+---
+
+## 🌟 Star History
+
+<p align="center">
+  <a href="https://star-history.com/#eskayML/turtle-projects&Date">
+    <img src="https://api.star-history.com/svg?repos=eskayML/turtle-projects&type=Date" alt="Star History Chart">
+  </a>
+</p>
