@@ -20,6 +20,9 @@ planets = [
     {"color": "green", "distance": 200, "size": 0.9, "speed": 0.1}
 ]
 
+# Speed factor: higher values make the animation slower
+speed_factor = 16
+
 # Creating a Turtle object for each planet and animate their orbits
 planet_turtles = []
 for planet in planets:
@@ -29,6 +32,7 @@ for planet in planets:
     planet_turtle.shapesize(planet["size"])
     planet_turtle.penup()
     planet_turtle.goto(planet["distance"], 0)
+    planet_turtle.seth(90)
     planet_turtle.pendown()
     planet_turtles.append(planet_turtle)
 
@@ -36,7 +40,7 @@ for planet in planets:
 def animate_orbits():
     for i, planet in enumerate(planet_turtles):
         planet.speed(0)
-        angle = 360 * planets[i]["speed"]
+        angle = 360 * planets[i]["speed"]/speed_factor
         planet.circle(planets[i]["distance"], angle)
 
 # Animating the orbits
